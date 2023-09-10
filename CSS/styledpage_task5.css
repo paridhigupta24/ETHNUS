@@ -1,0 +1,58 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+    color: purple;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-color: yellow;
+    flex: 1;
+    padding: 20px;
+    position: relative;
+}
+
+.sidebar-box {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.black-box {
+    background-color: black;
+    width: 22px;
+    height: 39px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.content {
+    flex: 2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left; 
+}
+
+.main-text {
+    text-align: left; 
+}
+.separator {
+    width: 100%; 
+    border-top: 1px dotted black; 
+    margin: 10px 0; 
+}
+.footer-text {
+    text-align: left;
+    margin-top: 20px;
+}
